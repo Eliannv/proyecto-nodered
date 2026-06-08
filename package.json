@@ -1,8 +1,10 @@
 {
     "name": "proyecto-nodered",
-    "description": "A Node-RED Project",
+    "description": "Agrego flujo del laboratorio 1",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "@flowfuse/node-red-dashboard": "1.30.2"
+    },
     "node-red": {
         "settings": {
             "flowFile": "PrimeroProyecto.json",
